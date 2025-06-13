@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ${DOCKER_REGISTRY}/budget-app:latest
+        image: hema995/budgetapp:latest
         ports:
         - containerPort: 3000
         env:
