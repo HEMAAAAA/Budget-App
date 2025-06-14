@@ -29,7 +29,7 @@ spec:
           value: password
         volumeMounts:
         - name: postgres-data
-          mountPath: /var/lib/postgresql/data
+          mountPath: /mnt/data
         resources:
           limits:
             cpu: "1"

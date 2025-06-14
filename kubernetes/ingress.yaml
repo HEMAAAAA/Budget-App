@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - host: budget-app.example.com  # Replace with your actual domain
+  - host: budgetapp.local
     http:
       paths:
       - path: /

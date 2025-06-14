@@ -38,13 +38,7 @@ spec:
         - name: log-volume
           mountPath: /app/log
         - name: tmp-volume
-          mountPath: /app/tmp
-        readinessProbe:
-          httpGet:
-            path: /health
-            port: 3000
-          initialDelaySeconds: 10
-          periodSeconds: 5
+          mountPath: /app/tmp        
         resources:
           limits:
             cpu: "1"
