@@ -4,6 +4,8 @@ metadata:
   name: budget-app
   labels:
     app: budget-app
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   replicas: 2
   selector:
